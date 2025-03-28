@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5 #caches pip dependencies of any installed packages
+      - uses: actions/setup-python@v5 #caches pip dependencies of any installed packages.
         with:
           python-version: "3.13"
           cache: "pip"
