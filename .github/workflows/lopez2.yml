@@ -1,6 +1,9 @@
 name: Lopez2 Workflow
 
 on:
+  push:
+    branches:
+      - github-actions-tutorial
   workflow_dispatch:
 
 jobs:
